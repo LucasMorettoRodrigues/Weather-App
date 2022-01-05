@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <div id="location"></div>
+            <div id="weather"></div>
+            <div id="tempBox">
+                <div id="temp" class="C"></div>
+                <div id="temp" class="F"></div>
+                <button id="switch">to ºF</button>
+            </div>
+            <div id="others">
+                <div id="humidity">
+                    <img src="humidityIcon.png" alt="Humidity Icon" class="icon">
+                    <div id="humidityValue"></div>
+                </div>
+                <div id="wind">
+                    <img src="windIcon.png" alt="Wind Icon" class="icon">
+                    <div id="windValue"></div>
+                </div>
+            </div>
+        </div>
+        <div id="input">
+            <input type="text" name="text" id="locInput" placeholder="Search location">
+            <button id='locBtn'>Submit</button>
+            <div class="message">City not found.</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

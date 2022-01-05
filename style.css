@@ -1,0 +1,101 @@
+body {
+    padding: 20px;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#container {
+    margin-top: 20vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    width: 270px;
+    height: 310px;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 10px;
+}
+
+#locInput {
+    border: none;
+    border-bottom: solid 2px rgb(0, 101, 168);
+    padding: 5px 10px;
+    width: 153px;
+    font-size: 16px;
+    background: none;
+}
+
+#locBtn {
+    border: solid 2px rgb(0, 101, 168);
+    border-radius: 5px;
+    color: rgb(0, 101, 168);
+    background: none;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#location {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#weather {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#temp {
+    margin-bottom: 10px;
+}
+
+#tempBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+#switch {
+    height: 20px;
+    margin-top: 30px;
+    background:  none;
+    border-radius: 50px;
+}
+
+#others {  
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.C ,
+.F {
+    display: none;
+}
+
+.active {
+    display: flex;
+}
+
+.message {
+    font-size: 12px;
+    padding: 5px;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+#humidity,
+#wind {
+    display: flex;
+    margin-right: 30px;
+}
