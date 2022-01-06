@@ -6,11 +6,7 @@ const switchBtn = document.querySelector('#switch')
 async function getWeather(location) {
     try {
         const response = await fetch(
-            `http://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=19ffb0353d0c04bf6651c3036ee54a9d`,
-        {
-            mode: 'cors',
-        }
-    )
+            `https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=19ffb0353d0c04bf6651c3036ee54a9d`)
         const data = await response.json() 
         const editedData = editData(data)
         loadPage(editedData)
