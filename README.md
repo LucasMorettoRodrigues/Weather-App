@@ -1,12 +1,11 @@
 # Weather App
 
-Weather App created with HTML5, CSS3 and JS.
-
-This project was completed for The Odin Project Weather App. The aim of the project was to use and Weather API to make a functional Website that search for a city and displays weather informations.
+Weather App created with HTML5, CSS3 and JS consuming api from openweathermap.
+The main objective of this project is to practice api consumption.
 
 # Live Demo
 
-[Weather App](https://lucasmorettorodrigues.github.io/Weather-App/)
+[Click here to see Weather App live.](https://lucasmorettorodrigues.github.io/Weather-App/)
 
 
 
